@@ -2,7 +2,6 @@ import * as React from 'react';
 import './style.css';
 import Button from '@mui/material/Button';
 import DialogFactory from './DialogFactory';
-import Modal from './Modal';
 import BasicModal from './BasicModal';
 
 export default function App() {

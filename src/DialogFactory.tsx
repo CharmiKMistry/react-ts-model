@@ -40,7 +40,7 @@ const ErrorDialog: React.FC<DialogProps> = ({
 
   const handleClick = (isCancel) => {
     setOpen(false);
-    onClose(isCancel);
+    onClose?.(isCancel);
   };
 
   return (
